@@ -7,7 +7,7 @@
 # define delimiter
 DELIMITER=','
 
-# divide the raw data into several parts
+# divide the raw data into several parts if it can not be loaded into your memory
 def SeparateData(rawFilePath,numParts):
     """
     This function is used to separate the huge file into several parts.
@@ -93,6 +93,8 @@ def ProcessDataYear(year):
     SeparateData(rawFilePath,numParts=1) #no separation
     NormalizeData(dirPath+r'data_'+year+'.ASC_0.txt', dirPath+r'variableLayout_'+year+'.txt')
 
+# merge data with same attributes in different years
+# this function add a new attribute 'year' at the end of the column
 def MergeYearFile(year_list,savedFilePath):
     ls_data=[]
     ls_variable=[]
