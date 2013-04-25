@@ -1,0 +1,20 @@
+Starting Column  Variable Name	Field Length
+151	HowOftenEatFruit	3
+468	TotalNumServingFruit	5
+473	SummaryIndex	1
+190	TimeActivityPast	3
+193	TimeKeepActivityPast	3
+202	TimeActivity	3
+205	TimeKeepActivity	3
+4	_PSU	5
+3	_STSTR	1
+515	_FINALWT	10
+50	DIABETES	1
+78	AGE	2
+1	_STATE	2
+484	_RFWHBMI	1
+101	SEX	1
+81	HISPANIC	1
+80	ORACE	1
+88	INCOME	1
+40	HLTHPLAN	1
